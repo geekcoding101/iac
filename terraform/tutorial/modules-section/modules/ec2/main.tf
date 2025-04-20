@@ -1,11 +1,3 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = ">= 5.95.0"
-    }
-  }
-}
 
 data "aws_ami" "amazon_linux_2" {
   most_recent = true
